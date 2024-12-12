@@ -1,0 +1,152 @@
+{
+  "universities": [
+    {
+      "university": "Massachusetts Institute of Technology (MIT)",
+      "state": "Massachusetts",
+      "rank": 1,
+      "listOfCourses": [
+        "Computer Science",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Economics",
+        "Business Administration"
+      ],
+      "minimumQualifications": "Bachelor's degree with a GPA of 3.5 or higher, GRE/GMAT for graduate programs, TOEFL/IELTS for non-native English speakers",
+      "fees": {
+        "semesterFees": 28000,
+        "courseFees": {
+          "Computer Science": 70000,
+          "Electrical Engineering": 65000,
+          "Economics": 55000
+        }
+      },
+      "facultySize": 1500,
+      "foreignStudentsEnrolled": 4500,
+      "stifund": "Up to $25,000 per year for research assistants",
+      "studentBenefits": [
+        "On-campus housing assistance",
+        "Health insurance",
+        "Career counseling services"
+      ],
+      "loansInfo": "Federal student loans and private education loans available"
+    },
+    {
+      "university": "Stanford University",
+      "state": "California",
+      "rank": 2,
+      "listOfCourses": [
+        "Artificial Intelligence",
+        "Civil Engineering",
+        "Business Management",
+        "Psychology",
+        "Data Science"
+      ],
+      "minimumQualifications": "Bachelor's degree with a GPA of 3.6 or higher, TOEFL/IELTS for international students",
+      "fees": {
+        "semesterFees": 30000,
+        "courseFees": {
+          "Artificial Intelligence": 75000,
+          "Civil Engineering": 62000,
+          "Business Management": 68000
+        }
+      },
+      "facultySize": 2000,
+      "foreignStudentsEnrolled": 5000,
+      "stifund": "Up to $28,000 for PhD students",
+      "studentBenefits": [
+        "Flexible payment plans",
+        "Research opportunities",
+        "Access to state-of-the-art labs"
+      ],
+      "loansInfo": "Federal loans, private loans, and institutional aid"
+    },
+    {
+      "university": "Harvard University",
+      "state": "Massachusetts",
+      "rank": 3,
+      "listOfCourses": [
+        "Law",
+        "Medicine",
+        "Business",
+        "Public Policy",
+        "Environmental Science"
+      ],
+      "minimumQualifications": "High GPA, relevant test scores, and strong letters of recommendation",
+      "fees": {
+        "semesterFees": 32000,
+        "courseFees": {
+          "Law": 68000,
+          "Medicine": 75000,
+          "Business": 70000
+        }
+      },
+      "facultySize": 2100,
+      "foreignStudentsEnrolled": 6000,
+      "stifund": "Research assistantship up to $30,000",
+      "studentBenefits": [
+        "Health insurance",
+        "Discounted transportation",
+        "Networking opportunities"
+      ],
+      "loansInfo": "Scholarships and private loans available"
+    },
+    {
+      "university": "California Institute of Technology (Caltech)",
+      "state": "California",
+      "rank": 4,
+      "listOfCourses": [
+        "Astrophysics",
+        "Chemical Engineering",
+        "Computer Science",
+        "Mathematics",
+        "Biology"
+      ],
+      "minimumQualifications": "Bachelor's degree with a GPA of 3.7, strong research background",
+      "fees": {
+        "semesterFees": 31000,
+        "courseFees": {
+          "Astrophysics": 72000,
+          "Chemical Engineering": 70000
+        }
+      },
+      "facultySize": 1200,
+      "foreignStudentsEnrolled": 3000,
+      "stifund": "$25,000 for teaching assistants",
+      "studentBenefits": [
+        "Collaborative research labs",
+        "Campus housing",
+        "Entrepreneurship programs"
+      ],
+      "loansInfo": "Education loans with low-interest rates"
+    },
+    {
+      "university": "University of Chicago",
+      "state": "Illinois",
+      "rank": 5,
+      "listOfCourses": [
+        "Economics",
+        "Sociology",
+        "Philosophy",
+        "Data Analytics",
+        "Political Science"
+      ],
+      "minimumQualifications": "Strong academic record and research experience",
+      "fees": {
+        "semesterFees": 29000,
+        "courseFees": {
+          "Economics": 68000,
+          "Philosophy": 58000
+        }
+      },
+      "facultySize": 1900,
+      "foreignStudentsEnrolled": 4000,
+      "stifund": "$20,000 annual stipend for qualified students",
+      "studentBenefits": [
+        "Advanced library resources",
+        "Networking events",
+        "Healthcare services"
+      ],
+      "loansInfo": "Federal student loans available"
+    }
+  ]
+}
