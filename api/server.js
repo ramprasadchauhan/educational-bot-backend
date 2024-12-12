@@ -5,9 +5,22 @@ const pdf = require("pdf-parse");
 const { JSONLoader } = require("langchain/document_loaders/fs/json")
 const app = express();
 
-app.use(cors());
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+const allowedOrigins = ['https://student-help-bot.netlify.app', "http://localhost:5173/"];  // Add more as needed
+
+// Set up CORS with specific allowed origins
+app.use(cors({
+    origin: (origin, callback) => {
+        if (allowedOrigins.includes(origin) || !origin) {
+            callback(null, true); // Allow requests from allowed origins
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    }
+}));
 
 const port = process.env.PORT || 5000;
 
