@@ -9,17 +9,21 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const allowedOrigins = ['https://student-help-bot.netlify.app', "http://localhost:5173/"];  // Add more as needed
+// const allowedOrigins = ['https://student-help-bot.netlify.app', "http://localhost:5173/"];  // Add more as needed
 
-// Set up CORS with specific allowed origins
+// // Set up CORS with specific allowed origins
+// app.use(cors({
+//     origin: (origin, callback) => {
+//         if (allowedOrigins.includes(origin) || !origin) {
+//             callback(null, true); // Allow requests from allowed origins
+//         } else {
+//             callback(new Error('Not allowed by CORS'));
+//         }
+//     }
+// }));
+
 app.use(cors({
-    origin: (origin, callback) => {
-        if (allowedOrigins.includes(origin) || !origin) {
-            callback(null, true); // Allow requests from allowed origins
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    }
+    origin: '*'  // Allow all origins
 }));
 
 const port = process.env.PORT || 5000;
